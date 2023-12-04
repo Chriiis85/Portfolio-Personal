@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 3px solid black;
+  background-color: #8a817c;
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  top: 0;
+  left: 0;
+  font-family: "Roboto", sans-serif;
+  z-index: 99;
+  text-align: center;
+  color: white;
+}
+
+button {
+  border-radius: 15px;
+  border: 2px solid black;
+  width: 200px;
+  height: 35px;
+  background-color: #e0afa0;
+  font-family: "Roboto", sans-serif;
+}
+
+.grupo-botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  width: 50%;
+  height: 100%;
+}
+
+footer {
+  border-top: 3px solid black;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  bottom: 0;
+  left: 0;
+  background-color: #8a817c;
+  color: white;
+}
+
+.secciontop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 150px;
+}
+
+.topcaja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topcaja > img {
+  width: 200px;
+  height: 200px;
+}
+
+.seccioncat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.seccioncat > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border: 5px solid black;
+  border-collapse: collapse;
+  background-color: #f4f3ee;
+
+  transition: transform 0.3s;
+}
+
+.seccioncat > div:hover {
+  transform: scale(1.1);
+}
+
+.containerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 75px;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.containerFooter > article > li:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1, 1);
+}
+
+.containerHeader {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  width: 50%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+article {
+  margin-top: 25px;
+  text-align: center;
+  width: 20%;
+  height: 80%;
+}
+
+iframe {
+  border: 5px solid black;
+  width: 200px;
+  height: 75spx;
+}
+
+.alert {
+  position: fixed;
+  padding: 20px;
+  background-color: #463f3a;
+  color: white;
+  border: 3px solid black;
+  margin: 0;
+  width: 97%;
+  z-index: 99;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.redes {
+  margin-left: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  width: 50%;
+  height: 100%;
+  flex-wrap: wrap;
+  transition: 0.5s;
+}
+
+.redes > div:hover {
+  transform: scale(1.1);
+}
+
+.seccionval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.valo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+hr {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.producto {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+  gap: 100px;
+}
+
+.prodiv1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 25px;
+  width: 30%;
+  height: 100%;
+}
+
+.prodiv1 > img {
+  margin-top: 25px;
+  width: 450px;
+  height: 450px;
+}
+
+.prodiv2 {
+  width: 70%;
+  height: 100%;
+}
+
+.menudesp {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: row;
+  gap: 130px;
+  width: 100%;
+  height: 100%;
+}
+
+.descripcion {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.botones {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.botones > button {
+  height: 75px;
+  width: 250px;
+  border-style: 5px solid black;
+}
